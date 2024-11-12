@@ -9,6 +9,7 @@ import image4 from "../../img/tokio4.jpg";
 import NavBar from "./NavBar";
 import Jumbotron from "./Jumbotron";
 import Cards from "./Cards";
+import Footer from "./Footer";
 
 //create your first component
 const Home = () => {
@@ -48,6 +49,7 @@ const Home = () => {
 					})}
 				</div>
 			</div>
+			<Footer/>
 		</div>
 	);
 };
