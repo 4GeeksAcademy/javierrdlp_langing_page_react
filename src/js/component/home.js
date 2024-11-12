@@ -37,9 +37,10 @@ const Home = () => {
 
 	]
 	return (
-		<div className="text-center container-fluid vh-100" style={{ backgroundColor: "#fccbd1" }}>
+		<div className="text-center fullscreen">
 			<NavBar />
 			<div className="container">
+				<div className="row mt-5 mb-5"/>				
 				<Jumbotron />
 				<div className="row d-flex justify-content-around mt-5">
 					{data.map((value, index, array) => {
